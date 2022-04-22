@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACIA,AAAA,KAAK,CAAC;EACJ,YAAY,CAAA,QAAC;EACb,cAAc,CAAA,KAAC;EACf,cAAc,CAAA,QAAC;EACf,cAAc,CAAA,QAAC;EACf,gBAAgB,CAAA,qBAAC;EACjB,iBAAiB,CAAA,oBAAC;CACnB;;CAED,AAAA,AAAA,UAAC,CAAW,MAAM,AAAjB,EAAmB;EAClB,YAAY,CAAA,QAAC;EACb,cAAc,CAAA,KAAC;EACf,cAAc,CAAA,QAAC;EACf,cAAc,CAAA,QAAC;EACf,gBAAgB,CAAA,QAAC;EACjB,iBAAiB,CAAA,oBAAC;CACnB;;ADlBD,AAAA,UAAU,CAAC;EACP,MAAM,EAAE,MAAM;CACf",
+    "sources": [
+        "Locations.scss",
+        "__colors.scss"
+    ],
+    "names": [],
+    "file": "Locations.css"
+}
