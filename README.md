@@ -20,13 +20,11 @@ This is a weather application done in both mobile and web version, with emphasiz
 
 ## Live video
 
-[live presentation](https://www.loom.com/share/3f67f0b928794ae7b78e3eb1717221e4)
-
-[Code Highlight](https://www.loom.com/share/d0eca547ef994e18bbe2fc935cce5eba)
+[Code Highlight]()
 
 ## Live Demo
 
-[netlify deployment]()
+[Online site](https://weather-app-rdc.netlify.app/)
 
 # Getting Started with Create React App
 
