@@ -14,7 +14,7 @@ import {
   WiTornado,
   WiCloudyGusts,
 } from 'react-icons/wi';
-import { CLEAR_DATA } from '../../redux/reducer/reducers';
+import { REMOVE_DATA } from '../../redux/reducer/reducers';
 import MyLoader from './Loader';
 
 const Details = () => {
@@ -22,7 +22,7 @@ const Details = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch({
-      type: CLEAR_DATA,
+      type: REMOVE_DATA,
     });
   }, []);
   const icon = () => {
