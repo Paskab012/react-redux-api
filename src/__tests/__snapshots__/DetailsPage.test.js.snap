@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Detail page component test Should return/render the item detail 1`] = `
+<div
+  className="text-center"
+>
+  <div>
+    Loading, wait a moment...
+  </div>
+</div>
+`;
