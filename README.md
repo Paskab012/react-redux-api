@@ -20,11 +20,11 @@ This is a weather application done in both mobile and web version, with emphasiz
 
 ## Live video
 
-[Code Highlight]()
+[Code Highlight](https://www.loom.com/share/8b122832d5f847caa896c021374589c0)
 
 ## Live Demo
 
-[Online site](https://weather-app-rdc.netlify.app/)
+[Online site](https://62641e7c471dd4520bd702de--weather-app-rdc.netlify.app/)
 
 - Project description using
 [Loom video](https://www.loom.com/share/8b122832d5f847caa896c021374589c0)
