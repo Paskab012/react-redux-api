@@ -8,7 +8,7 @@ export const IState = {
 export const getWeather = (payload) => ({ type: FETCH_API_DATA, payload });
 
 export const getDataApi = (city) => async (dispatch) => {
-  const API = `http://api.openweathermap.org/data/2.5/weather?q=${city},cd&appid=ab7fa58fb1f922dd30077d5ba626d257`;
+  const API = `https://api.openweathermap.org/data/2.5/weather?q=${city},cd&appid=ab7fa58fb1f922dd30077d5ba626d257`;
   const myresp = await fetch(API);
   const ApiData = await myresp.json();
   const Coordinate = ApiData.weather[0];
