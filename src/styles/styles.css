@@ -119,15 +119,14 @@ svg {
   font-size: 18px;
   color: white;
 }
-
+/* 
 .weather {
-  background: #4369b2;
-  background-repeat: no-repeat;
+  background: url('../assets/dphdwep.gif');
   margin-top: -80px;
   padding-top: 50px;
   padding-bottom: 150px;
   height: 100px;
-}
+} */
 
 .weather-content {
   color: white;
