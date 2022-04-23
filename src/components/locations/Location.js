@@ -1,14 +1,11 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { dom } from '@fortawesome/fontawesome-svg-core';
 import { IoIosArrowForward, IoIosPin } from 'react-icons/io';
 import { BiSearchAlt2 } from 'react-icons/bi';
 import { v4 as uuid } from 'uuid';
-import { getDataApi } from '../../redux/Reducers';
+import { getDataApi } from '../../redux/reducer/reducers';
 import background from '../../assets/temp.jpg';
-
-dom.watch();
 
 const Locations = () => {
   const [searchQuery, setSearchQuery] = React.useState('');
@@ -16,7 +13,7 @@ const Locations = () => {
   const handleChange = (event) => {
     setSearchQuery(event.target.value);
   };
-  const PlaceCities = ['Kigali', 'Nyamasheke', 'Rubavu', 'Nyamata', 'Kamembe', 'Nyamagabe', 'Bugesera', 'Kayonza', 'Kirehe', 'Ngoma', 'Gasabo', 'Nyarugenge', 'Kicukiro', 'Burera', 'Gakenke', 'Gicumbi', 'Musanze', 'Rulindo', 'Gisagara', 'Huye', 'Kamonyi', 'Muyanga', 'Nyanza', 'Nyaruguru', 'Ngororero'];
+  const PlaceCities = ['Kinshasa', 'Mbuji-Mayi', 'Bosobolo', 'Lusambo', 'Kasongo-Lunda', 'Lubumbashi', 'Goma', 'Bukavu', 'Kikwit', 'Uvira', 'Kamituga', 'Beni', 'Butembo', 'Fizi', 'Kindu', 'Kisangani', 'Boende', 'Gemena', 'Ilebo', 'Matadi', 'Gbadolite', 'Zongo', 'Kamituga', 'Bandundu', 'Mbandaka'];
   const searchedPlaces = searchQuery.trim().length > 0
     ? PlaceCities.filter((c) => c.toLowerCase().includes(searchQuery.toLowerCase())) : PlaceCities;
   return (
@@ -24,7 +21,7 @@ const Locations = () => {
       <div className="container">
         <div className="ttable">
           <div className="input">
-            <input type="text" onChange={handleChange} value={searchQuery} id="input-data" placeholder="city/country" />
+            <input type="text" onChange={handleChange} value={searchQuery} id="input-data" placeholder="search here" />
             <BiSearchAlt2 id="search" />
           </div>
           <div className="cities-table">

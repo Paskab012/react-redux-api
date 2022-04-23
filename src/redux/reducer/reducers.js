@@ -1,20 +1,15 @@
-// actions
 const GET_DATA = 'GET_DATA';
 export const CLEAR_DATA = 'CLEAR_DATA';
-export const initialState = {
+
+export const IState = {
   details: {},
 };
 
-// create action creators return object
-export const getWeather = (payload) => ({
-  type: GET_DATA,
-  payload,
-});
-// create action creators return function
+export const getWeather = (payload) => ({ type: GET_DATA, payload });
 
 export const getDataApi = (city) => async (dispatch) => {
-  const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city},cd&appid=154344f9f77d3b1f544f33274934dfaa`;
-  const myresp = await fetch(apiUrl);
+  const API = `http://api.openweathermap.org/data/2.5/weather?q=${city},cd&appid=ab7fa58fb1f922dd30077d5ba626d257`;
+  const myresp = await fetch(API);
   const ApiData = await myresp.json();
   const coordoData = ApiData.weather[0];
   coordoData.temp = ApiData.main.temp;
@@ -27,9 +22,7 @@ export const getDataApi = (city) => async (dispatch) => {
   dispatch(getWeather(ApiData));
 };
 
-// Reducer
-
-const reducer = (state = initialState, action) => {
+const reducer = (state = IState, action) => {
   switch (action.type) {
     case GET_DATA:
       return { ...state, details: action.payload };

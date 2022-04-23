@@ -14,7 +14,8 @@ import {
   WiTornado,
   WiCloudyGusts,
 } from 'react-icons/wi';
-import { CLEAR_DATA } from '../../redux/Reducers';
+import { CLEAR_DATA } from '../../redux/reducer/reducers';
+import MyLoader from './Loader';
 
 const Details = () => {
   const city = useSelector((state) => state.dataReducer.details);
@@ -64,7 +65,7 @@ const Details = () => {
     <>
       {Object.keys(city).length === 0 ? (
         <div className="text-center">
-          <p>loading...</p>
+          <MyLoader />
         </div>
       ) : (
         <div className="weather">

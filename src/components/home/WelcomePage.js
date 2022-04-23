@@ -6,7 +6,7 @@ import Nav from '../navBar/NavBar';
 import Locations from '../locations/Location';
 
 const WelcomePage = () => {
-  const city = useSelector((state) => state.homeReducer);
+  const city = useSelector((state) => state.reducerReducer);
   return (
     <div className="welcome-page">
       <Router>
