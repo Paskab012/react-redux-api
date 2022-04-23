@@ -5,7 +5,7 @@ import { IoIosArrowForward, IoIosPin } from 'react-icons/io';
 import { BiSearchAlt2 } from 'react-icons/bi';
 import { v4 as uuid } from 'uuid';
 import { getDataApi } from '../../redux/reducer/reducers';
-import background from '../../assets/temp.jpg';
+import background from '../../assets/weathe.png';
 
 const Locations = () => {
   const [searchQuery, setSearchQuery] = React.useState('');

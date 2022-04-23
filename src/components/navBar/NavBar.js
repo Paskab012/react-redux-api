@@ -9,7 +9,7 @@ const Nav = () => (
     <Link to="/">
       <IoIosArrowBack className="arrow-back" />
     </Link>
-    <div className="logo">Weather App</div>
+    <div className="logo">Look at your weather!</div>
     <div className="icons">
       <BiMicrophone />
       <BsFillGearFill />
