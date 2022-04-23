@@ -6,11 +6,11 @@ This is a weather application done in both mobile and web version, with emphasiz
 
 ## Screenshots: 
 
-![mobile](./mobile.png)
+![mobile](./mobileVer.png)
 
 #
 
-![webversion](./web.png)
+![webversion](./webVer.png)
 
 ## Built With
 
