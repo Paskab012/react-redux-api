@@ -26,6 +26,8 @@ This is a weather application done in both mobile and web version, with emphasiz
 
 [Online site](https://weather-app-rdc.netlify.app/)
 
+- Project description using
+[Loom video](https://www.loom.com/share/8b122832d5f847caa896c021374589c0)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
